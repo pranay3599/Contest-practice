@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ddd;
+}
+.navbar{
+    color: white;
+     background-color: black;
+     font-size: 15px;
+     position: sticky;
+     top: 0px;
+     height: 50px;
+}
+.heading p{
+    float: left;
+    margin: 15px 20px;
+    font-size: 15px;
+}
+.nav-content a{
+    float: right;
+    margin: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.books-table {
+    background-color: #fff;
+    margin: 0px 20%;
+    padding: 30px;
+}
+.books-table table, tr, td, th{
+       border: 1px solid #ddd;
+       border-collapse: collapse;
+       padding: 5px 10px;
+}
+.books-table table{
+    text-align: left;
+    width:100%
+}
+.books-table h1{
+    padding: 10px 0px;
+}
+.m-form{
+    background-color: #fff;
+    margin: 30px 20%;
+    padding: 30px;
+}
+.m-form input{
+    width: 95%;
+    height: 25px;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.m-form label input{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.m-form button{
+    width: 95%;
+    height: 25px;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
